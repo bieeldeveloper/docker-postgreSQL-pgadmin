@@ -13,14 +13,15 @@ When you start "docker-compose", it will automatically create the "data" folder 
 ### Start Container
     $ docker-compose up -d
 
-### Host PostgreSQL 
+### Access PostgreSQL 
     host: localhost:5432
     username: postgres
     password: admin
-### Acess PgAdmin
+### Access PgAdmin
     host: http://localhost:15432
     username: admin
     password: admin
+* if accessing PostgreSQL from PgAdmin use host "postgres:5432"
 
 
 
